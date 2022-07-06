@@ -122,16 +122,16 @@ global.mess = {
 }
     global.limitawal = {
     premium: "Infinity",
-    free: 12,
-    monayawal: 1000
+    free: Infinity,
+    monayawal: Infinity
 }
    global.rpg = {
-   darahawal: 100,
-   besiawal: 15,
+   darahawal: Infinity,
+   besiawal: Infinity,
    goldawal: 10,
    emeraldawal: 5,
    umpanawal: 5,
-   potionawal: 1
+   potionawal: Infinity
 }
 global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
